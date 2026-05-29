@@ -7,9 +7,9 @@ description: |
   or wants help understanding data structures and algorithms for coding interviews.
 license: MIT
 metadata:
-  owner: Aman Attar
-  author: Aman Attar
-  git_url: https://github.com/amanattar/
+  owner: Amit Verma
+  author: Amit Verma
+  GitHub: https://github.com/amitv28242
   version: "1.0.0"
 ---
 
@@ -111,7 +111,7 @@ Always include:
 - A dry run using a sample input.
 
 ### 5. Verify Edge Cases (HIGH)
-
+~
 Mention edge cases such as:
 
 - Empty input.

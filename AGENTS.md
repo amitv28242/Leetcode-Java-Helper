@@ -1,10 +1,10 @@
-# LeetCode Helper Guidelines
+# LeetCode Java Helper Guidelines
 
 **A practical guide for AI agents solving LeetCode-style coding problems with
 optimized code, deep explanations, and interview-ready reasoning.**
 
-Owner: Aman Attar  
-GitHub: https://github.com/amanattar/
+Owner: Amit Verma     
+GitHub: https://github.com/amitv28242
 
 ---
 
