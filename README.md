@@ -1,6 +1,6 @@
-# LeetCode Helper
+# LeetCode Java Helper
 
-LeetCode Helper is a Codex skill for solving LeetCode-style coding interview
+LeetCode Java Helper is a Codex skill for solving LeetCode-style coding interview
 problems with optimized solutions and detailed explanations.
 
 ## Owner
