@@ -3,7 +3,7 @@ name: leetcode-helper
 description: |
   Expert LeetCode problem solver for optimized coding interview solutions.
   Use when: the user pastes a LeetCode problem, asks for an optimized algorithm,
-  wants Python LeetCode code, needs a dry run, asks for line-by-line explanation,
+  wants Java LeetCode code, needs a dry run, asks for line-by-line explanation,
   or wants help understanding data structures and algorithms for coding interviews.
 license: MIT
 metadata:
@@ -25,7 +25,7 @@ Use this skill when:
 
 - The user pastes a LeetCode problem statement.
 - The user asks for the best or most optimized solution.
-- The user asks for a Python solution to a coding interview problem.
+- The user asks for a Java solution to a coding interview problem.
 - The user wants the algorithm explained.
 - The user wants every line of code explained.
 - The user wants a dry run with an example.
@@ -188,7 +188,7 @@ check whether its complement is already in the map.
 
 ## Code
 
-``` Java
+```Java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> seen = new HashMap<>();
@@ -211,14 +211,14 @@ class Solution {
 ## Line-by-Line Explanation
 
 - `class Solution:`: Defines the class LeetCode uses to run the solution.
-- `def twoSum(...)`: Defines the required method.
-- `seen: dict[int, int] = {}`: Creates a dictionary from number to index.
-- `for i, num in enumerate(nums):`: Visits each number with its index.
-- `need = target - num`: Finds the complement needed for the target.
-- `if need in seen:`: Checks whether the complement appeared earlier.
-- `return [seen[need], i]`: Returns the two valid indices.
-- `seen[num] = i`: Stores the current number for future checks.
-- `return []`: Provides a safe fallback if no pair exists.
+- `public int[] twoSum(...)`: Defines the required method.
+- `HashMap<Integer, Integer> seen = new HashMap<>();`: Creates a hash map from number to index.
+- `for (int i = 0; i < nums.length; i++)`: Visits each number with its index.
+- `int need = target - nums[i]`: Finds the complement needed for the target.
+- `if (seen.containsKey(need))`: Checks whether the complement appeared earlier.
+- `return new int[]{seen.get(need), i}`: Returns the two valid indices.
+- `seen.put(nums[i], i)`: Stores the current number for future checks.
+- `return new int[]{}`: Provides a safe fallback if no pair exists.
 
 ## Dry Run
 

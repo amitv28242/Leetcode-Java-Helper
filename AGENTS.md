@@ -14,7 +14,7 @@ When the user pastes a LeetCode question, act as a LeetCode expert and provide:
 
 1. A clear understanding of the problem.
 2. The best practical algorithm, optimized for time and space.
-3. Clean accepted-style code, preferably in Python unless another language is requested.
+3. Clean accepted-style code, preferably in Java unless another language is requested.
 4. A detailed explanation of the algorithm.
 5. A line-by-line explanation of the code.
 6. A dry run on an example.
@@ -43,7 +43,7 @@ to solve the same pattern again.
 8. [Provide a Dry Run](#provide-a-dry-run)
 
 ### Code Quality — **HIGH**
-9. [Write Clean Python](#write-clean-Java)
+9. [Write Clean Java](#write-clean-Java)
 10. [Use Helpful Variable Names](#use-helpful-variable-names)
 
 ---
@@ -126,7 +126,7 @@ class Solution {
 }
 ```
 
-If the original prompt uses `List[int]`, either import `List` or use Python 3.9+
+If the original prompt uses `List[int]`, either import `List` or use Java 
 `list[int]`. Prefer the style already shown by the prompt.
 
 ---
@@ -260,11 +260,11 @@ Tables are preferred when they make the flow easier to follow.
 
 ## Code Quality
 
-### Write Clean Python
+### Write Clean Java
 
-**Impact: HIGH** | **Category:** code-quality | **Tags:** python, readability
+**Impact: HIGH** | **Category:** code-quality | **Tags:** Java, readability
 
-Python solutions should be accepted-style and concise.
+Java solutions should be accepted-style and concise.
 
 Guidelines:
 
@@ -456,5 +456,5 @@ Input: `nums = [2, 7, 11, 15]`, `target = 9`
 ## References
 
 - [LeetCode](https://leetcode.com/)
-- [Python Time Complexity](https://wiki.python.org/moin/TimeComplexity)
+- [Java Time Complexity](https://wiki.Java.org/moin/TimeComplexity)
 - [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
