@@ -1,5 +1,5 @@
 ---
-name: leetcode-helper
+name: leetCode-java-helper
 description: |
   Expert LeetCode problem solver for optimized coding interview solutions.
   Use when: the user pastes a LeetCode problem, asks for an optimized algorithm,
