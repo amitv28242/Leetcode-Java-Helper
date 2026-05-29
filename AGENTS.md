@@ -43,7 +43,7 @@ to solve the same pattern again.
 8. [Provide a Dry Run](#provide-a-dry-run)
 
 ### Code Quality — **HIGH**
-9. [Write Clean Python](#write-clean-python)
+9. [Write Clean Python](#write-clean-Java)
 10. [Use Helpful Variable Names](#use-helpful-variable-names)
 
 ---
@@ -118,7 +118,7 @@ When the prompt contains a LeetCode function signature, preserve it exactly.
 
 #### Correct
 
-```python
+```Java
 class Solution {
     public int methodName(int[] nums) {
         // solution
@@ -334,9 +334,10 @@ When answering a pasted LeetCode question, use this structure:
 3. [Step three]
 
 ## Code
-```python
-class Solution:
+```Java
+class Solution{
     ...
+}
 ```
 
 ## Line-by-Line Explanation
@@ -398,18 +399,24 @@ the target has already appeared.
 
 ## Code
 
-```python
-class Solution:
-    def twoSum(self, nums: list[int], target: int) -> list[int]:
-        seen: dict[int, int] = {}
+```Java
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        HashMap<Integer, Integer> seen = new HashMap<>();
 
-        for i, num in enumerate(nums):
-            need = target - num
-            if need in seen:
-                return [seen[need], i]
-            seen[num] = i
+        for (int i = 0; i < nums.length; i++) {
+            int need = target - nums[i];
 
-        return []
+            if (seen.containsKey(need)) {
+                return new int[]{seen.get(need), i};
+            }
+
+            seen.put(nums[i], i);
+        }
+
+        return new int[]{};
+    }
+}
 ```
 
 ## Line-by-Line Explanation

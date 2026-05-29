@@ -10,7 +10,7 @@ metadata:
   owner: Amit Verma
   author: Amit Verma
   GitHub: https://github.com/amitv28242
-  version: "1.0.0"
+  version: "2.0.1"
 ---
 
 # LeetCode Helper
@@ -91,13 +91,13 @@ Select the most suitable algorithmic pattern:
 Use the exact LeetCode method signature when provided. Prefer Java unless the
 user requests another language.
 
-/*Java
+```Java
 class Solution {
     public int methodName(int[] nums) {
         // solution
     }
 }
-*/
+```
 
 Do not include stdin/stdout parsing unless requested.
 
@@ -141,13 +141,13 @@ Use this format for LeetCode answers:
 3. [Step three]
 
 ## Code
-/*java
+```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         // solution
     }
 }
-*/
+```
 
 ## Line-by-Line Explanation
 - `line`: Meaning and purpose.
